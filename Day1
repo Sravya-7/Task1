@@ -68,7 +68,7 @@ class Honda extends TwoWheeler{
 
 public void run(){
 
-System.out.println("\nbike is Running..");
+System.out.println("\nScooty is Running..");
 
 }
 
@@ -92,11 +92,11 @@ System.out.println(b.add(5.,2.)); //polymorphism
 
 EncapTest encap = new EncapTest();
 
-encap.setName("Sandeep's");
+encap.setName("Sravya's");
 
 System.out.print("Name : " + encap.getName() );
 
-TwoWheeler test = new Honda();
+TwoWheeler test = new Activa();
 
 test.run();
 
@@ -115,6 +115,6 @@ Two
 
 7.0
 
-Name : Sandeep's
+Name : Sravya's
 
-bike is Running.
+Scooty is Running.
